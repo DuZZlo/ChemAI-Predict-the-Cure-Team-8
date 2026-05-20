@@ -1,7 +1,7 @@
 import pandas as pd
 import numpy as np
 import sys
-from utils import stdgen, stdfilter
+from scripts.utils import stdgen, stdfilter
 from scipy import stats
 import warnings
 
@@ -20,8 +20,6 @@ def find_consts(X: pd.DataFrame):
         std = X[x].std()
         if std == np.float64(0.0):
             yield x
-
-
 
 def find_noise(X: pd.DataFrame, y_0, y_1):
     for x in X.columns.tolist():
