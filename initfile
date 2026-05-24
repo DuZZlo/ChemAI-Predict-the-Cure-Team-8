@@ -1,0 +1,11 @@
+#!/bin/bash
+
+python3.14 -m venv venv
+source "venv/bin/activate"
+libs=("catboost" "numpy" "scikit-learn" "pandas" "matplotlib", "scipy")
+
+
+for lib in "${libs[@]}"; do
+    pip install $lib
+    echo "$lib"
+done
