@@ -75,7 +75,7 @@
 ## Структура репозитория
 
 - `data/` - директория с исходными файлами train.csv, test.csv и sample_submission.csv
-- `notebooks/` - исполняемый ноутбук Команда8_Вариант22.ipynb
+- `notebooks/` - исполняемый ноутбук Final.ipynb
 - `submissions/` - директория для экспорта файлов предсказаний
 - `initfile.py` - скрипт инициализации путей и констант
 - `README.md` - документация проекта
@@ -91,7 +91,7 @@ pip install catboost lightgbm scikit-learn scipy pandas numpy matplotlib
 
 1. Поместите файлы train.csv, test.csv и sample_submission.csv в директорию data/.
 2. Запустите скрипт инициализации: `python initfile.py`
-3. Откройте ноутбук `notebooks/Команда8_Вариант22.ipynb`
+3. Откройте ноутбук `notebooks/Final.ipynb`
 4. Выполните все ячейки последовательно (Run All).
 
 После завершения работы в корневой директории появится файл с предсказаниями.
